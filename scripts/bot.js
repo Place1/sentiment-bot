@@ -9,9 +9,7 @@ module.exports = function(robot) {
 		fs.appendFile(
 			path.join(__dirname, '..', 'chat_log', 'log.txt'),
 			JSON.stringify({
-				id: res.message.user.id,
-				user: res.message.user.name,
-				text: res.message.text,
+				message: res.message,
 				date: new Date()
 			}) + '\n',
 			function(err) {
