@@ -13,4 +13,4 @@ source $SCRIPTPATH/private_env_config.sh
 
 export PORT=9090
 
-exec node_modules/.bin/hubot --name "sentiment-bot" "$@"
+exec node_modules/.bin/hubot --name "sentiment-bot" $FLAGS "$@"
