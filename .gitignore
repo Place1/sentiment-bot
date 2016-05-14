@@ -2,6 +2,6 @@ node_modules
 .DS_Store*
 .hubot_history
 chat_log
-private_env_config.sh
+privateSettings.js
 deploy.sh
 _deploy.sh

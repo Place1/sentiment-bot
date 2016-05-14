@@ -15,6 +15,7 @@ module.exports = function(robot) {
 			function(err) {
 				if (err) console.log('error:');
 		});
+		return res.send(res.message.text);
 	});
 
 	return robot;
