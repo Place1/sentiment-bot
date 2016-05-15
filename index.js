@@ -1,6 +1,6 @@
 'use strict';
 
-require('coffee-script'); // so we can require hubot;
+require('coffee-script/register'); // so we can require hubot;
 const Hubot = require('hubot');
 const path = require('path');
 

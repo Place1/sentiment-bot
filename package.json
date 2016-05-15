@@ -4,15 +4,15 @@
   "description": "### usage: you need to make a file in `bin` with this inside:",
   "main": "index.js",
   "dependencies": {
+    "coffee-script": "^1.10.0",
     "forever": "^0.15.1",
     "hubot": "^2.19.0",
-    "hubot-facebook": "^0.5.3",
     "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
     "forever:up": "forever start index.js",
-		"forever:down": "forever stop index.js"
+    "forever:down": "forever stop index.js"
   },
   "repository": {
     "type": "git",
