@@ -1,7 +1,9 @@
 # sentiment-bot
 
 ### usage:
-you need to make a file in `bin` with this inside:
+you need to make a configuration file in the project root directory called `privateSettings.js` with contents...
 
-	export FB_LOGIN_EMAIL=<your bot account email>
-	export FB_LOGIN_PASSWORD=<your bot account password>
+	module.exports = {
+		FB_LOGIN_EMAIL: "your facebook login",
+		FB_LOGIN_PASSWORD: "your facebook password"
+	};
