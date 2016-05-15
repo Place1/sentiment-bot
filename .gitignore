@@ -1,7 +1,7 @@
 node_modules
 .DS_Store*
 .hubot_history
-chat_log
+chat_log.txt
 privateSettings.js
 deploy.sh
 _deploy.sh

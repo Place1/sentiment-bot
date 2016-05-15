@@ -6,8 +6,9 @@ const path = require('path');
 module.exports = function(robot) {
 
 	robot.catchAll((res) => {
+		
 		fs.appendFile(
-			path.join(__dirname, '..', 'chat_log', 'log.txt'),
+			path.join(__dirname, '..', 'chat_log.txt'),
 			JSON.stringify({
 				message: res.message,
 				date: new Date()
