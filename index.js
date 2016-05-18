@@ -5,7 +5,7 @@ const Hubot = require('hubot');
 const path = require('path');
 
 const adapterPath = path.resolve(__dirname);
-const adapterName = 'facebook'; // from hubot-facebook
+const adapterName = process.env.ADAPTER || 'facebook'; // from hubot-facebook
 const enableHttpd = true;
 const botName = 'sentiment-bot';
 const botAlias = '/';
