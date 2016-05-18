@@ -1,0 +1,3 @@
+[submodule "hubot-facebook"]
+	path = hubot-facebook
+	url = https://github.com/blazeu/hubot-facebook.git
